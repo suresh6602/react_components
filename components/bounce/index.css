@@ -1,0 +1,17 @@
+#target {
+     animation: bounceAnimation 0.8s infinite alternate;
+}
+
+@keyframes bounceAnimation {
+     0% {
+          transform: scale(1);
+     }
+     100% {
+          transform: scale(1.2);
+     }
+}
+
+.image {
+     width: 90px;
+     height: 90px;
+}
